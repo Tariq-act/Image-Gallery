@@ -24,10 +24,10 @@ function Header({ placeholder, data, setSelectedImg }) {
               onChange={(e) => setQuery(e.target.value)}
               placeholder={placeholder}
             />
-            <button className='btn btn-primary' onClick={search}>
-              Search
-            </button>
           </div>
+          <button className='btn btn-primary' onClick={search}>
+            Search
+          </button>
         </div>
       </div>
       <Card searchQuery={searchData} setSelectedImg={setSelectedImg} />
